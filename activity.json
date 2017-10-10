@@ -1,0 +1,23 @@
+{
+  "name": "HelloSven",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "activity description",
+  "author": "Sven Haiges <sven.haiges@gmail.com>",
+  "inputs":[
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    }    
+  ],
+  "outputs": [
+    {
+      "name": "fullName",
+      "type": "string"
+    }
+  ]
+}
